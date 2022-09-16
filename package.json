@@ -1,5 +1,6 @@
 {
   "name": "square-code",
+  "publisher": "eyeofthecode",
   "displayName": "Square Code",
   "description": "Format code in a square like manner",
   "version": "0.1.0",
