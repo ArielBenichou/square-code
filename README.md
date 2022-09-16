@@ -7,10 +7,10 @@ Format your code with nice columns. Square up your stuff!
 Select your text to format and active the `Square Code: Format Selection` command.
 
 Before:
-![feature X](assets/before.png)
+![before](assets/before.png)
 
 After:
-![feature X](assets/after.png)
+![after](assets/after.png)
 
 > Tip: You can bind this command to a shortcut, say `ctrl+f q`
 
