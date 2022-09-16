@@ -75,7 +75,7 @@ function countSpacesBeforeFirstWord(line: string): number {
 
 function getLongestTokenOfColumn(grid: string[][], column: number): number {
   const lengths = grid.map((line) => line[column].length);
-  const sorted = lengths.sort();
+  const sorted = lengths.sort((a, b) => b - a);
   return sorted[0] || 0;
 }
 
