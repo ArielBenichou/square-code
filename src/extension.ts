@@ -2,7 +2,7 @@ import * as vscode from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand(
-    "square-code.formatSelection",
+    "squarier.formatSelection",
     () => {
       const editor = vscode.window.activeTextEditor;
       const selectedText = editor?.document.getText(editor.selection);

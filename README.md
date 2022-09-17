@@ -1,10 +1,10 @@
-# Square Code
+# Squarier
 
 Format your code with nice columns. Square up your stuff!
 
 ## Features
 
-Select your text to format and active the `Square Code: Format Selection` command.
+Select your text to format and active the `Squarier: Format Selection` command.
 
 Before:
 ![before](assets/before.png)
@@ -18,7 +18,7 @@ After:
 
 ### 0.1.0
 
-Initial release of Square Code.
+Initial release.
 
 Features:
 -  Format Selection
