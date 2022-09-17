@@ -13,12 +13,3 @@ After:
 ![after](assets/after.png)
 
 > Tip: You can bind this command to a shortcut, say `ctrl+f q`
-
-## Release Notes
-
-### 0.1.0
-
-Initial release.
-
-Features:
--  Format Selection
