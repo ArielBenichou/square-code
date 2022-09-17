@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.2] - 2022-09-17
+### Fixed
+- NPM Deploy Script
+
 ## [0.1.1] - 2022-09-17
 ### Added
 - CI/CD Pipeline
