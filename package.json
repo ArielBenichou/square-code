@@ -3,7 +3,7 @@
   "publisher": "ArielBenichou",
   "displayName": "Squarier",
   "description": "Format code in a square like manner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.71.0"
   },
