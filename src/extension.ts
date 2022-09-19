@@ -1,5 +1,5 @@
 import * as vscode from "vscode";
-import { formatSelection } from "./core";
+import { Formatter } from "squarier";
 
 export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand(
@@ -8,7 +8,8 @@ export function activate(context: vscode.ExtensionContext) {
       const editor = vscode.window.activeTextEditor;
       const selectedText = editor?.document.getText(editor.selection);
       if (selectedText) {
-        const formattedText = formatSelection(selectedText);
+        const formatter = new Formatter({ language: "js" });
+        const formattedText = formatter.format(selectedText);
         editor?.edit((editBuilder) => {
           editBuilder.replace(editor.selection, formattedText);
         });
