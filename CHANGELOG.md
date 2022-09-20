@@ -7,11 +7,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 
+## [0.2.0] - 2022-09-20
+### Added
+- Tabs are now converted to spaces automatically
+
 ## [0.1.3] - 2022-09-20
 ### Added
 - Ignore empty lines
 - Ignore // comments
-
 ### Notes
 - Moved the core logic to 0.1.1 'squarier' NPM package
 
